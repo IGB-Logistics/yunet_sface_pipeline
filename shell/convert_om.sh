@@ -1,0 +1,2 @@
+atc --model=../model/yunet_120x160.onnx --framework=5 --output=../model/yunet_120x160  --soc_version=Ascend310B4 --input_format=ND --log=error --input_shape="data:1,3,120,160"
+atc --model=../model/sface_112x112.onnx --framework=5 --output=../model/sface_112x112  --soc_version=Ascend310B4 --input_format=ND --log=error --input_shape="data:1,3,112,112"
